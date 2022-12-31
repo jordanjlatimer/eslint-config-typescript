@@ -2,8 +2,27 @@
   "name": "@jordanjlatimer/eslint-config-typescript",
   "version": "0.0.1",
   "main": "index.js",
-	"peerDependencies": {
-		"@typescript-eslint/eslint-plugin": "^5.46.1",
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.46.1",
     "@typescript-eslint/parser": "^5.46.1"
-	}
+  },
+  "description": "Base config for eslint configurations for projects using Typescript",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jordanjlatimer/eslint-config-typescript.git"
+  },
+  "keywords": [
+    "eslint",
+    "typescript"
+  ],
+  "author": "Jordan Latimer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jordanjlatimer/eslint-config-typescript/issues"
+  },
+  "homepage": "https://github.com/jordanjlatimer/eslint-config-typescript#readme"
 }
